@@ -1,6 +1,4 @@
 {
-    "name": "mattifesto/testing",
-    "description": "Testing.",
     "autoload": {
         "classmap": [
             "src/"
@@ -14,6 +12,9 @@
     "bin": [
         "bin/mattifesto-testing-run"
     ],
+    "description": "Testing.",
+    "license": "MIT",
+    "name": "mattifesto/testing",
     "require": {
         "php": ">=8.0"
     }
