@@ -1,0 +1,20 @@
+{
+    "name": "mattifesto/testing",
+    "description": "Testing.",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "src-test/"
+        ]
+    },
+    "bin": [
+        "bin/mattifesto-testing-run"
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
