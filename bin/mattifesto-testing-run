@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+include(
+    $_composer_autoload_path
+);
+
+Mattifesto\Testing\TestRunner::run();
